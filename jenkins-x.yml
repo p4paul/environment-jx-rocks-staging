@@ -10,3 +10,4 @@ pipelineConfig:
       postBuild:
         steps:
         - command: make test
+        - command: echo "Running integ tests!!!"
